@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="operaciones.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <p>Calculadora de operaciones básicas</p>
+</header>
+
+<article  id="cuadroOperaciones">
+
+<form id="tamañoLetra">
+    Dato uno <input class="ingresarDigito" type="text" id="num1"> <br/>
+    Dato dos <input class="ingresarDigito" type="text" id="num2"> <br/>
+    <input class="botones" type="button" onclick="sumar()" value="Suma">
+    <input class="botones" type="button" onDblclick="restar()" value="Resta">
+    <input class="botones" type="button" onMousemove="multiplicar()" value="Multiplicación">
+    <input class="botones" type="button" onWheel="dividir()" value="División">
+    <p>El resultado es:</p>
+    <p id="resultado"></p>
+</form>
+
+</article>
+
+<br/>
+
+<footer><p>Creado por Yesenia Quejada Rojas</p></footer>
+
+</body>
+</html>

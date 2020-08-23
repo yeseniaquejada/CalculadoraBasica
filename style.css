@@ -1,0 +1,71 @@
+body{
+    font-family: 'Indie Flower', cursive;
+   background-size: cover;
+   background-image: url("imagenes/homero.jpg"); 
+}
+
+header{
+    background-color:#0AA286;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 50px;
+}
+
+#cuadroOperaciones{
+    background-color: white;
+    border: 10px solid #0AA286  ;
+    border-radius: 10px; 
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 20px 40px;
+    margin-top: 50px;
+    margin-left:300px ;
+    margin-right: 300px;
+}
+
+#tamañoLetra{
+    font-size: 25px;
+}
+
+.ingresarDigito{
+    border: 3px solid #0AA286  ;
+    border-radius: 5px; 
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.botones{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    margin: 5px 5px;
+    margin-top: 20px;
+    background-color: #c4a39f;
+    border: 3px solid white;
+    border-radius: 10px; 
+}
+
+#resultado{
+    border: 3px solid #0AA286;
+    border-radius: 10px; 
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer{
+    background-color:#0AA286;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 50px;
+}
+
